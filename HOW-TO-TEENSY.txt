@@ -1,0 +1,45 @@
+﻿1- getting started with Teensy
+ https://www.pjrc.com/teensy/first_use.html
+ 
+2- install arduino program
+
+3- Install teensyduino for Arduino prog
+Outils>Types de carte>Teensy 3
+Outils>USB Type>depend du sketch
+Outils>Port>Check in "Gestionnaire de périphériques>Ports (COM et LPT) -Teensy doit apparaitre en fin de liste
+
+https://www.pjrc.com/teensy/td_download.html
+To run your sketches on your teensy:
+First usage :
+1-click verify (in arduino prog next to arrow on the left side)
+2-Press button on teensy
+
+Normal usage
+1-Click upload from arduino prog
+
+//////////////////
+//////////////////
+TIPS AND TRICKS
+
+////////////////:
+To connect the audio adapter on Teensy:
+- Buy some pairs of pin header male and female (with the same form : square or round, they need to fit in each other)
+- Solder female pin header on the teensy and male on the audio adapter to plus them together.
+//////////////////////////:
+
+-----------------------
+Get sound on teensy
+Look at the workshop: https://hackaday.io/project/8292-microcontroller-audio-workshop-had-supercon-2015
+Arduino>Examples>Audio>tutorial>Part1-02 Hardware test
+//////////////////////:
+https://github.com/PaulStoffregen/Audio/tree/master/examples
+///////////////////////////////////////////////////////////////
+http://www.kobakant.at/DIY/?p=2497
+/////////////////////////////////::
+
+WORKSHOP
+https://cdn.hackaday.io/files/8292354764928/workshop.pdf
+///////////////////::::
+Design Tool online
+https://www.pjrc.com/teensy/gui/
+
